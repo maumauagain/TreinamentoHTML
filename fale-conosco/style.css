@@ -1,0 +1,312 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+header {
+	height: 92px;
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	position: fixed;
+	right: 0;
+	left: 0;
+	padding: 0 8px;
+	top: 0;
+	z-index: 10;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	margin-right: 10px;
+	float: left!important;
+}
+
+li a{
+	color: #777;
+	text-decoration: none;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 13px;
+	line-height: 90px;
+}
+
+li a:hover {
+	color: #888!important;
+	text-decoration: underline;
+}
+
+.navbar{
+	float: right;
+}
+
+.contratando{
+	float: right;
+	margin-right: 100px;
+}
+
+.logo {
+	margin-top: 22px;
+	margin-left: 100px;
+}
+
+#banner {
+	margin-top: 74px;
+	background-image: url('banner.png');
+	margin-left: -8px;
+}
+
+#banner h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 35px;
+	font-family: "Open Sans";
+	font-weight: lighter;
+}
+
+
+
+#content {
+	margin-right: 100px;
+	margin-left: 100px;
+	width: 55%;
+	float: left;
+}
+
+#content h1{
+	color: #14c5fe;
+	font-size: 43px;
+	font-weight: lighter;
+	font-family: "Open Sans";
+	letter-spacing: 0px;
+}
+
+.esq {
+	float: left;
+	width: 50%;
+}
+
+.esq input{
+	width: 90%;
+	height: 25px;
+}
+
+.dir {
+	width: 50%;
+	float: right;
+}
+
+.dir input{
+	width: 90%;
+	height: 25px;
+}
+
+.lastblock input {
+	width: 95%;
+	height: 25px;
+}
+
+form {
+	padding: 0;
+}
+
+label {
+	font-size: 15px;
+	color: #999;
+	font-family: "Open Sans";
+	font-weight: bolder;
+}
+
+input {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+	height: 10px;
+	margin-top: 5px;
+}
+
+input:active{
+	border-color: blue;
+}
+
+
+.btnenvia{
+	width: auto!important;
+	height: auto!important;
+	background-color: #07b5dd!important;
+	color: #fff;
+	padding: 15px 50px;
+	font-size: 25px;
+	margin-bottom: 100px;
+}
+
+.btnenvia:hover {
+	background-color: #2484b2!important;
+}
+
+#joinus{
+	width: 25%;
+	float: right;
+	margin-top: 80px;
+	margin-right: 60px;
+
+}
+
+
+#joinus h1{
+	color: #777;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+
+#joinus a{
+	text-decoration: none;
+}
+
+.iconF{
+	background: url('ico-Facebook.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.iconF:hover{
+	background-image: url('ico-Facebook_hover.png');
+}
+
+.iconT{
+	background: url('ico-Twitter.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.iconT:hover{
+	background-image: url('ico-Twitter_hover.png');
+}
+
+.iconL{
+	background: url('ico-Linkedin.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.iconL:hover{
+	background-image: url('ico-Linkedin_hover.png');
+}
+
+.iconG{
+	background: url('ico-g.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.iconG:hover{
+	background-image: url('ico-g_hover.png');
+}
+
+.workus {
+	margin-top: 100px;
+	height: 183px;
+	width: 82%;
+	border: 2px solid #d6d6d6;
+}
+
+.workus img{
+	float: left;
+	width: 30%;
+	margin: 5%;
+}
+
+.workus h3{
+	float: right;
+	width: 60%;
+	margin-top: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	color: #d6d6d6;
+	font-weight: lighter;
+}
+
+.cadcur {
+	background-color: #fdc00f;
+	padding: 15px 20px;
+	color: #fff;
+	font-size: 15px;
+	width: 75%;
+	margin-left: 5%;
+	margin-top: -10px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	
+	border: 1px solid transparent;
+}
+
+.cadcur:hover {
+	color: #fdc00f;
+	background-color: #fff;
+	border-color: #fdc00f;
+}
+
+
+
+#firstrod{
+	clear: both;
+	height: 280px;
+	margin-left: -10px;
+}
+
+#firstrod .rodapeesq img{
+	width: 40%!important;
+	width: auto;
+}
+
+.rodapeesq{
+	width: 35%;
+	padding-left: 100px;
+	float: left;
+}
+
+.rodapeesq p, .rodapedir p{
+	color: #888888;
+	font-size: 15px;
+	font-family: "Open Sans";
+	text-align: left;
+	font-weight: 500;
+}
+
+.rodapedir {
+	margin-left: 150px;
+}
+
+.rodapedir img {
+	margin-right: 15px;
+}
+
+.lastrod{
+	height: 30px;
+	background-color: #000000;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+
+.lastrod p{
+	color: #f9f9f9;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: "Open Sans";
+	text-align: center;
+}
