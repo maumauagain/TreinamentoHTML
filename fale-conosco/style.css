@@ -54,7 +54,7 @@ li a:hover {
 
 #banner {
 	margin-top: 74px;
-	background-image: url('banner.png');
+	background-image: url('imagens/banner.png');
 	margin-left: -8px;
 }
 
@@ -167,7 +167,7 @@ input:active{
 }
 
 .iconF{
-	background: url('ico-Facebook.png');
+	background: url('imagens/ico-Facebook.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 50px;
@@ -175,11 +175,11 @@ input:active{
 }
 
 .iconF:hover{
-	background-image: url('ico-Facebook_hover.png');
+	background-image: url('imagens/ico-Facebook_hover.png');
 }
 
 .iconT{
-	background: url('ico-Twitter.png');
+	background: url('imagens/ico-Twitter.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 50px;
@@ -187,11 +187,11 @@ input:active{
 }
 
 .iconT:hover{
-	background-image: url('ico-Twitter_hover.png');
+	background-image: url('imagens/ico-Twitter_hover.png');
 }
 
 .iconL{
-	background: url('ico-Linkedin.png');
+	background: url('imagens/ico-Linkedin.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 50px;
@@ -199,11 +199,11 @@ input:active{
 }
 
 .iconL:hover{
-	background-image: url('ico-Linkedin_hover.png');
+	background-image: url('imagens/ico-Linkedin_hover.png');
 }
 
 .iconG{
-	background: url('ico-g.png');
+	background: url('imagens/ico-g.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 50px;
@@ -211,7 +211,7 @@ input:active{
 }
 
 .iconG:hover{
-	background-image: url('ico-g_hover.png');
+	background-image: url('imagens/ico-g_hover.png');
 }
 
 .workus {
